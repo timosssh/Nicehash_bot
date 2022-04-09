@@ -5,6 +5,7 @@ import time
 import keyboard
 from keyboard import *
 import requests
+ipmort tests as test
 
 bot = telebot.TeleBot(config.TOKEN)
 next_step = bot.register_next_step_handler  # Переход бота на следующий шаг
